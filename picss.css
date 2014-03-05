@@ -1,0 +1,53 @@
+GtkWindow {
+
+}
+
+
+GtkSwitch {
+background-color:    rgba (100, 0, 0, 0);
+font:    Sans 12;
+}
+
+GtkSwitch.trough {
+color: #ffffff; /*@theme_base_color; @internal_element_color;*/
+border-radius:    0;
+border-width:    0;
+border-style:    none;/*solid;*/
+border-color:    shade (@frame_color, 1.22);
+background-image:    url('./image/slider_dis.png');
+background-size:    100% 100%;
+background-repeat:    no-repeat;
+border-radius:    80px;
+}
+
+GtkSwitch.slider {
+background-image:    url('./image/fore.png');
+color:    rgb (200, 200, 0);
+background-position:    50% 50%;
+background-repeat:    no-repeat;
+border-radius:    80px;
+padding:    1px;
+background-size:    100% 100%;
+}
+
+GtkSwitch.slider:active {
+background-image:    url('./image/fore.png');
+background-position:    50% 50%;
+background-repeat:    no-repeat;
+border-radius:    80px;
+background-size:    100% 100%;
+padding:    1px;
+
+}
+
+
+GtkSwitch.trough:active {
+background-image:    url('./image/switch_active.png');
+border-radius:    80px;
+background-position:    50% 50%;
+background-repeat:    no-repeat;
+background-size:    100% 100%;
+color:    rgb (100, 100, 0);
+}
+
+
