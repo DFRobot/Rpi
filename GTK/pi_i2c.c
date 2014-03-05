@@ -28,6 +28,7 @@ static void switch_button_cb () {
 int main (int argc, char **argv) {
 
 	/*-- CSS ------------------*/
+	/*--All this css just edits colors and so on------*/
 	GtkCssProvider *provider;
 	GdkDisplay *display;
 	GdkScreen *screen;
